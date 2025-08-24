@@ -13,8 +13,8 @@ export default function TodoList(){
         setTodo((event.target.value));
     }
     return(
-        <div className="TodoList">
-        <h1>Hello</h1>
+        <div>
+        <h1>Welcome</h1>
         <input type="text" placeholder="Add a task" value={Todo}onChange={update}/>
         <button onClick={addTask}>Add a Task</button>
         <h3>TodoList</h3>
